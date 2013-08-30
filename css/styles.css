@@ -186,5 +186,5 @@ div#SubHeader{padding-left: 100px; float: left; margin-top:10px; height: 20px;}
 .stretch {
 	min-height: auto;
 	width: 100%;
-	display: table-cell; vertical-align: middle;
+}
 }
