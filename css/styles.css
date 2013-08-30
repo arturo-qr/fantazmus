@@ -9,12 +9,7 @@ padding : 0; }
 h2, h3, h4, h5, p, ul, ol, hr { margin : 0 0px; padding: 0em; }
 
 /***** Removes the dotted outline in FireFox when image links are clicked on *****/
-a{font-family:"Trebuchet MS"; font-size:13px; color:#FFFFFF; text-decoration:none;}
-a:hover{font-family:"Trebuchet MS"; font-size:13px; color:#FFFFFF; text-decoration:underline;}
-a.hiddenlink:link{color:#000000; text-decoration:none;}
-a.hiddenlink:hover{color:#000099; text-decoration:underline;}
-a.hiddenlink:visited{color:#000000; text-decoration:none;}
-a.hiddenlink:active{color:#000000; text-decoration:none;}
+
 
 /* =html */
 /*This creates a persistent scroll bar in Firefox to prevent page jump*/
@@ -22,18 +17,23 @@ a.hiddenlink:active{color:#000000; text-decoration:none;}
 html { overflow-y:auto; }
 
 /* =body */
-body{	border: 1px red dashed; background: #000000 url() top center  no-repeat;background-size: 100%;}
+body{	border: 1px red dashed; background: #000000 url() top center  no-repeat;background-size: 100%;
+	background: #111;
+  color: #fff;
+  font-family: 'Open sans', sans-serif;
+  font-weight: 300;
+  font-size: 20pt;
 
+}
+/*border: 1px red solid;*/
 div#PageContainerOuter{
-	border: 1px red solid;
+	
 	background:  url() center top  no-repeat;
 	width: 100%;  
-	position:relative; 
-	top:-15px;
-}
 
+}
+/*border: 1px red dotted;*/
 div#PageContainer{ 
-	border: 1px red dotted;
 	width: 1015px; margin: 0 auto;  	
 }
 
@@ -126,11 +126,6 @@ ol.ordered-list3 li{
 }
 
 /* for link style change */	
-a:link.on, a:visited.on {color: #904C39; text-decoration:none;}
-a:link.off, a:visited.off {color: #69563E; text-decoration:none;}
-a:link.done, a:visited.done {color: #69563E; text-decoration:none;}
-a.on:hover, a.off:hover, a.done:hover {text-decoration:underline;}
-
 .NoView{display: none;}
 .clearAll{ clear: both;}
 
@@ -145,12 +140,12 @@ a.download:hover{color: #000099; text-decoration: underline; font-size: 25px; fo
 a.download:visited{color: #000000; text-decoration: none; font-size: 25px; font-weight:bold;}
 a.download:active{color: #000099; text-decoration: none; font-size: 25px; font-weight:bold;}
 
-div#FooterContainer{color:#000000; position:relative; top: -15px; clear: both; width: 100%;}
-div#Footer{ width: 1015px; height: 90px; margin: 0 auto; background:  url() top no-repeat;}
+div#FooterContainer{color:#000000; position:relative; top: 15px; clear: both; width: 100%;}
+div#Footer{ width: 1015px; height: 90px; margin: 0 auto; background: #000  url() top no-repeat;}
 
 div#floatright{position:relative; float:right; margin-right:50px; margin-top:20px;}
 
-#FooterCopyright{ padding-top:50px; position:relative;  font: normal 6px/16px Arial, Helvetica, sans-serif; color: #ffffff; text-align: center; clear: both; }
+#FooterCopyright{ padding-top:10px; position:relative;  font-size: 16px; color: #ffffff; text-align: center; clear: both; }
 #FooterCopyright a:link{color: #ffffff; text-decoration: none; font-size:11px; font-weight:bold;}
 #FooterCopyright a:hover{color: #ffffff; text-decoration: underline; font-size:11px; font-weight:bold;}
 #FooterCopyright a:visited{color: #ffffff; text-decoration: none; font-size:11px; font-weight:bold;}
@@ -164,7 +159,7 @@ div#HeaderContainer {
 	width: 100%;
 	position: relative;
 	z-index: 20;
-	background: # url() repeat-x;
+	background: #000 url() repeat-x;
 }
 
 div#HeaderContent{ z-index:20; width: 1015px; margin: 0 auto; height: 180px; background: url() top center no-repeat; background-size: 1015px 183px;}
@@ -188,3 +183,101 @@ div#SubHeader{padding-left: 100px; float: left; margin-top:10px; height: 20px;}
 	width: 100%;
 	display: table-cell; vertical-align: middle;
 }
+.block_ini1{
+	border-top-style:solid;
+	border-top-color: #B8B63E; 
+	border-top-width:15px;
+	background: #f7eec6;
+	height: 550px;
+}
+.block_ini{
+	background-color: #333;
+	opacity: 0.95;
+	color: #fff;
+	padding: 2em;
+	border: 2px solid #666;    
+	
+
+}
+.block_ini p{
+	color: #fff;
+}
+.block_ini h1{
+	font-size: 70px;
+	line-height: 60px;
+	letter-spacing: -6px;
+	padding-bottom: 9px;
+	padding-top: 6px;
+	font-weight: 400;
+}
+.column1-cont{
+	float: left;
+}
+.column1{
+    
+    margin-right: 200px;
+}
+.column2{
+    
+	float: right;
+	width: 250px;
+}
+#clear{
+    clear: both;
+}
+.contact{
+	color: #fff;
+
+}
+.contact h1{
+	font-size: 150px;
+line-height: 120px;
+letter-spacing: -6px;
+padding-bottom: 20px;
+padding-top: 20px;
+font-weight: 400;
+}
+
+
+form {background:#1d2426 ; 
+		
+		height:450px;width:400px;margin:0px auto;padding:20px; 
+		border: 1px solid #fff;
+		border-radius: 3px; 
+		-moz-border-radius: 3px; -webkit-border-radius: 3px;
+		box-shadow: 0px 0px 3px #bf303c, inset 0px 0px 27px #fff;
+		-moz-box-shadow: 0px 0px 3px #bf303c, inset 0px 0px 14px #fff;
+		-webkit-box-shadow: 0px 0px 3px #bf303c, inset 0px 0px 27px #fff;
+	}
+		label {
+			margin: 11px 20px 0 0; 
+			font-size: 16px; color: #b3aba1;
+			text-transform: uppercase; 
+			text-shadow: 0px 1px 0px #fff;
+		}
+
+		input[type=text], textarea {
+			font: 14px normal normal uppercase helvetica, arial, serif;
+			color: #7c7873;background:#fff;
+			width: 380px; height: 36px; padding: 0px 10px; margin: 0 0 10px 0;
+			border:1px solid #f8f5f1;
+			-moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px;
+			-moz-box-shadow: inset 0px 0px 1px #726959;
+			-webkit-box-shadow:  inset 0px 0px 1px #b3a895; 
+			box-shadow:  inset 0px 0px 1px #b3a895;
+		}	
+
+		textarea { height: 80px; padding-top:14px;}
+
+		textarea:focus, input[type=text]:focus {background:rgba(255,255,255,224);}
+
+		 input[type=submit] {
+			font-size:24px; color: #fff;text-shadow:0 1px 0 #000;
+			width: 100px;
+			text-align:center;opacity:1;
+			background:#7c7873;
+			cursor: pointer;
+			-moz-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px; 
+		}
+
+			input:hover[type=submit] {color: #fffff2;}
