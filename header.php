@@ -6,6 +6,7 @@
 	<link href="css/styles.css" rel="stylesheet" type="text/css" media="screen">
 	<link href="css/nav.css" rel="stylesheet" type="text/css" media="screen">
 	<link href='http://fonts.googleapis.com/css?family=Didact+Gothic' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Calligraffitti' rel='stylesheet' type='text/css'>
 	<!-- Scripts -->
 	<script type="text/javascript" src="js/commoncode.js"></script>		
 	<!-- JS for the submenus-->

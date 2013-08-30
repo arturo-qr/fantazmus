@@ -20,14 +20,13 @@
 							-Production People</br>
 							-Editors</br>
 							...etc,</br>
-
+							</br></br>
 							</p>
 							<p>Call us:</br></br>
 								Phone:    <span style="font-size:30px">+52(661)112 9421</span></br>
 								Skype:    <span style="font-size:30px">fantazmus.studios</span></br>
 								email:    <span style="font-size:30px">fzstudios@neuro-mail.com</span></br>
 								          <span style="font-size:30px">brustadglobal@gmail.com</span></br>
-
 							</p>
 						</div>
 					</div>
@@ -40,6 +39,7 @@
 				</div>
 			</div>
 		</div>
+		
 		<?php include 'footer.php';?>
 	</body>
 </html>
