@@ -1,70 +1,30 @@
-/* Top Nav and Book Gui Accordion */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600);
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  color: #fff;
+  text-decoration: none;
+}
 
-/* Clear Fixes */
-.clearfloat {clear:both; height:0px; font-size:1px; line-height:0px;}
+.menu {
+  margin: 0px auto;
+  background: #000000;
+}
+.menu a {
+  width: 141px;
+  height: 45px;
+  line-height: 40px;
+  display: block;
+  margin: 2px;
+  text-align: center;
+  float: left;
+  opacity: 0.9;
+}
 
 
-/* -- IE6 link fix for links & forms based on PNG Fix --*/
-* html .linkfix {position:relative;} 
-
-div#HeaderNavigation{ margin: 0px 0px 0px 0px; width:1017px; height: 67px;top:4px; left:108px;top:180px;float: left; position:relative; }
-
-/* Make Reservation Button */
-a.btn-1 {float:left; width:114px; height:49px; background:url(../images/button/off.png) no-repeat; text-indent: -1000px; overflow: hidden; display: block; padding:0; margin-left:0px; border: none; }
-a.btn-1:visited {background:url(../images/button/off.png) no-repeat;}
-a.btn-1:hover{background:url(../images/button/on.png) no-repeat;}
-a.btn-1.active {background:url(../images/button/on.png) no-repeat;}
-
-a.btn-2 {float:left; width:114px; height:49px; background:url(../images/button/off.png) no-repeat; text-indent: -1000px; overflow: hidden; display: block; padding:0; margin-left:0px; border: none; }
-a.btn-2:visited {background:url(../images/button/off.png) no-repeat;}
-a.btn-2:hover{background:url(../images/button/on.png) no-repeat;}
-a.btn-2.active {background:url(../images/button/on.png) no-repeat;}
-
-a.btn-3 {float:left; width:114px; height:49px; background:url(../images/button/off.png) no-repeat; text-indent: -1000px; overflow: hidden; display: block; padding:0; margin-left:0px; border: none; }
-a.btn-3:visited {background:url(../images/button/off.png) no-repeat;}
-a.btn-3:hover{background:url(../images/button/on.png) no-repeat;}
-a.btn-3.active {background:url(../images/button/on.png) no-repeat;}
-
-a.btn-4 {float:left; width:114px; height:49px; background:url(../images/button/off.png) no-repeat; text-indent: -1000px; overflow: hidden; display: block; padding:0; margin-left:0px; border: none; }
-a.btn-4:visited {background:url(../images/button/off.png) no-repeat;}
-a.btn-4:hover{background:url(../images/button/on.png) no-repeat;}
-a.btn-4.active {background:url(../images/button/on.png) no-repeat;}
-
-a.btn-5 {float:left; width:114px; height:49px; background:url(../images/button/off.png) no-repeat; text-indent: -1000px; overflow: hidden; display: block; padding:0; margin-left:0px; border: none; }
-a.btn-5:visited {background:url(../images/button/off.png) no-repeat;}
-a.btn-5:hover{background:url(../images/button/on.png) no-repeat;}
-a.btn-5.active {background:url(../images/button/on.png) no-repeat;}
-
-a.btn-6 {float:left; width:114px; height:49px; background:url(../images/button/off.png) no-repeat; text-indent: -1000px; overflow: hidden; display: block; padding:0; margin-left:0px; border: none; }
-a.btn-6:visited {background:url(../images/button/off.png) no-repeat;}
-a.btn-6:hover{background:url(../images/button/on.png) no-repeat;}
-a.btn-6.active {background:url(../images/button/on.png) no-repeat;}
-
-a.btn-7 {float:left; width:114px; height:49px; background:url(../images/button/off.png) no-repeat; text-indent: -1000px; overflow: hidden; display: block; padding:0; margin-left:0px; border: none; }
-a.btn-7:visited {background:url(../images/button/off.png) no-repeat;}
-a.btn-7:hover{background:url(../images/button/on.png) no-repeat;}
-a.btn-7.active {background:url(../images/button/on.png) no-repeat;}
-
-/* Drop Down */
-#nav li {float:left; display:block; position:relative; z-index:10 ; font-family: Arial, Helvetica, sans-serif; font-size: 11px; font-weight: bold; text-transform: uppercase;}
-
-/* this is the parent menu */
-#nav li a {display:block;}
-#nav li a:hover {}
-
-/* you can make a different style for default selected value */
-#nav a.selected {color:#f00;}
-
-/* submenu, it's hidden by default */
-#nav ul {position:absolute; top:68px; left:-3px; display:none; margin:0; padding:0; list-style:none;}
-*:first-child+html #nav ul {width:160px;}
-
-#nav ul li {width:160px; float:left; text-align:center; padding:0; background:#000; filter:alpha(opacity=70); -moz-opacity: .8; -khtml-opacity: .8; opacity: .8;}
-ul#nav li {padding:0;}
-/* display block will make the link fill the whole area of LI */
-#nav ul a {display:block; padding: 0px 0px; color: #C5A88D; text-decoration:none;}
-#nav ul a:hover {color:#fff;}
-
-/* fix ie6 small issue */
-* html #nav ul {margin:0 0 0 -2px;}
-* html #nav ul li a {position:relative;}
+.on { background: #B8B63E;border-top-left-radius: 3px;
+    border-top-right-radius: 3px; }
+.off { background: #525252;border-top-left-radius: 3px;
+    border-top-right-radius: 3px; }

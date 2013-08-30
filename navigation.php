@@ -2,52 +2,36 @@
 	<div id="HeaderContent">
 		<!-- Navigation Items -->
 		<div id="HeaderNavigation">
-			<!-- Tabs Panel -->
-			<ul id="nav">
-				<!--Global Financial Trust-->
-				<li onmouseover=painttab(1); onmouseout=unpainttab(1);><a href="#" onclick="return false;" class="btn-1">Global Financial Trust</a>
-					<ul onmouseover=painttab(1); onmouseout=unpainttab(1);>
-					</ul> 
-				</li> 
-				
-				<!--Big Ideas Tech-->
-				<li onmouseover=painttab(2); onmouseout=unpainttab(2);><a href="#" onclick="return false;" class="btn-2">Big Ideas Tech</a>
-					<ul onmouseover=painttab(2); onmouseout=unpainttab(2);>
-					</ul> 
-				</li> 
-				
-				<!--NeuroMama-->
-				<li onmouseover=painttab(3); onmouseout=unpainttab(3);><a href="#" onclick="return false;" class="btn-3">NeuroMama</a>
-					<ul onmouseover=painttab(3); onmouseout=unpainttab(3);>
-					</ul> 
-				</li> 
-				
-				<!--TviMama-->
-				<li onmouseover=painttab(4); onmouseout=unpainttab(4);><a href="#" onclick="return false;" class="btn-4">TviMama</a>
-					<ul onmouseover=painttab(4); onmouseout=unpainttab(4);>
-					</ul> 
-				</li> 
-				
-				<!--Eurasia-->
-				<li onmouseover=painttab(5); onmouseout=unpainttab(5);><a href="#" onclick="return false;" class="btn-5">Eurasia</a>
-					<ul onmouseover=painttab(5); onmouseout=unpainttab(5);>
-					</ul> 
-				</li> 
-				
-				<!--Aces of Acts-->
-				<li onmouseover=painttab(6); onmouseout=unpainttab(6);><a href="#" onclick="return false;" class="btn-6">Ace of Acts</a>
-					<ul onmouseover=painttab(6); onmouseout=unpainttab(6);>
-					</ul> 
-				</li> 
-				
-				<!--Fantazmus Studios-->
-				<li onmouseover=painttab(7); onmouseout=unpainttab(7);><a href="#" onclick="return false;" class="btn-7">Fantazmus Studios</a>
-					<ul onmouseover=painttab(7); onmouseout=unpainttab(7);>
-					</ul> 
-				</li> 
-				
-			</ul>
+			<!-- Tabs Panel 
+			<ul id="nav">	
+			</ul>-->
+			<div style="height:132px">
+				<img src="images/fantazmus_header.jpg">
+
+			</div>
+			<div class="menu">
+	            <a class="on" href="home.php">Home</a>
+	            <a class="off" href="about.php">About Us</a>
+	            <a class="off" href="gallery.php">Gallery</a>
+	            <a class="off" href="events.php">Events</a>
+	            <a class="off" href="news.php">News</a>
+	            <a class="off" href="hi.php">Projects</a>
+	            <a class="off" href="contact.php">Contact</a>
+	        </div>			
 		</div>
-		<div id="SubHeader"><span style="font-family: 'Didact Gothic',sans-serif; font-size: 13px; color: #fff"><strong style="font-size: 16px;"></strong></span></div>
+		<!-- <div id="SubHeader"><span style="font-family: 'Didact Gothic',sans-serif; font-size: 13px; color: #fff"><strong style="font-size: 16px;">Hola este es un subheader</strong></span></div> -->
 	</div>
 </div>
+<script type="text/javascript">
+		$(document).ready(function() {
+              $('.menu a').hover(function() {
+                $(this).stop().animate({
+                   opacity: 1
+                 }, 200);
+                    }, function() {
+               $(this).stop().animate({
+                opacity: 0.9
+                 }, 200);
+              });
+            });
+	</script>
